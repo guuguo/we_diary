@@ -1,0 +1,105 @@
+<style lang="less">
+  @import "../icon.less";
+
+  .container {
+    background-color: #e98784;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 4.5rem;
+    display: flex;
+    flex-flow: wrap;
+    padding: 1.2rem;
+    align-content: flex-start;
+    justify-content: center;
+  }
+
+  .bottom-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4.5rem;
+    background-color: #1b3137;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin-top: 4rem;
+    padding: 0.8rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 10rem;
+    width: 20rem;
+    box-shadow: 0 0 0.2rem #000000;
+  }
+
+  .btn_save {
+    background-color: #fae391;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    color: #aea171;
+    box-shadow: 0 0 0.3rem rgba(250, 227, 145, 50);
+  }
+</style>
+<template>
+  <view class="container">
+    <form bindsubmit="bindFormSubmit">
+    <view class="content">
+      <view class="card">
+        <textarea style="height: 100%;width: 100%" name="textarea" placeholder="现在的心情..." auto-focus />
+      </view>
+    </view>
+
+    <view class="bottom-bar">
+      <button  class="btn_save"form-type="submit">保存</button>
+    </view>
+  </form>
+
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  import moduleA from 'module-a' // aliasFields ignore module example
+  import AV from 'leancloud-storage/live-query'
+
+  console.log('moduleA ignored: ', moduleA) // => moduleA ignored: {}
+  export default class newMoodDiaryPage extends wepy.page {
+    config = {
+      navigationBarTitleText: 'test'
+    }
+    data = {
+      userInfo: {}
+    }
+
+    methods = {
+      bindFormSubmit(e) {
+        let Diary = AV.Object.extend('Diary')
+        let diary = new Diary()
+        diary.set('userId', this.$parent.globalData.userInfo.objectId)
+        console.log(e.detail.value.textarea)
+        diary.set('content', e.detail.value.textarea)
+        diary.save().then(function (diary) {
+          wepy.navigateBack()
+        }, function (error) {
+          console.error(error)
+        })
+      }
+    }
+    onLoad() {
+      wepy.setNavigationBarTitle({
+        title: '心情日记'
+      })
+    }
+  }
+</script>
