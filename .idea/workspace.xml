@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525cc7aa-364d-436a-ba6c-bd7cccd3efd1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/icon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/newdiary_character.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/newdiary_clover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/newdiary_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/newdiary_mood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/newdiary_voice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/newMoodDiaryPage.wpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/minePage.wpy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.wepycache" beforeDir="false" afterPath="$PROJECT_DIR$/.wepycache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/counter.wpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/group.wpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/groupitem.wpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list.wpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/panel.wpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wepy-list.wpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mixins/test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types/counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wepy.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/wepy.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/newDiaryPage.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/newDiaryPage.wpy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+            <state relative-caret-position="339">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -56,25 +31,38 @@
       <file leaf-file-name="index.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="193">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding>
-                <element signature="n#style#0;n#text#0;n#view#0;n#repeat#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#view#1;n#view#0;n#template#0;n#!!top" />
-                <element signature="e#1284#1307#0" expanded="true" />
+                <element signature="e#1249#1272#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newMoodDiaryPage.wpy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newDiaryPage.wpy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/newDiaryPage.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minePage.wpy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/minePage.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newMoodDiaryPage.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/newMoodDiaryPage.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="310">
+              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -91,19 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icon.wpy" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/wepy-zanui-demo-master/src/example/icon.wpy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="43" column="12" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.wpy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.wpy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="19">
               <caret line="19" selection-start-line="19" selection-end-line="20" />
             </state>
           </provider>
@@ -121,7 +100,7 @@
       <file leaf-file-name="lib.dom.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="56943">
               <caret line="3010" column="4" selection-start-line="3010" selection-start-column="4" selection-end-line="3010" selection-end-column="4" />
             </state>
           </provider>
@@ -138,11 +117,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>store</find>
       <find>new-diary-content</find>
       <find>setItem</find>
       <find>bindFormSubmit</find>
       <find>diaryContent</find>
+      <find>store</find>
+      <find>navigationBarTitleText</find>
+      <find>homeTap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,8 +137,10 @@
         <option value="$PROJECT_DIR$/src/icon.less" />
         <option value="$PROJECT_DIR$/src/index.template.html" />
         <option value="$PROJECT_DIR$/src/app.wpy" />
-        <option value="$PROJECT_DIR$/src/pages/index.wpy" />
         <option value="$PROJECT_DIR$/src/pages/newMoodDiaryPage.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/index.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/newDiaryPage.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/minePage.wpy" />
       </list>
     </option>
   </component>
@@ -184,8 +167,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="269" />
-    <option name="y" value="-22" />
+    <option name="x" value="94" />
+    <option name="y" value="-13" />
     <option name="width" value="1940" />
     <option name="height" value="1099" />
   </component>
@@ -195,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,34 +336,35 @@
       <option name="presentableId" value="Default" />
       <updated>1529852699815</updated>
       <workItem from="1529852701604" duration="601000" />
-      <workItem from="1529891468119" duration="19200000" />
+      <workItem from="1529891468119" duration="21935000" />
+      <workItem from="1530079529027" duration="6307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19801000" />
+    <option name="totallyTimeSpent" value="28843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1975764" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015806" side_tool="true" weight="0.28277355" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28277355" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49841937" visible="true" weight="0.28277355" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -426,19 +410,69 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/leancloud-storage/live-query.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/av-live-query-weapp-min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/npm/wepy-redux/lib/connect/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="779">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#1249#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/newMoodDiaryPage.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icon.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#249#7418#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/wepy-zanui-demo-master/src/example/icon.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57190">
+          <caret line="3010" column="4" selection-start-line="3010" selection-start-column="4" selection-end-line="3010" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/npm/wepy-redux/lib/connect/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/wepy/lib/wepy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-245" />
@@ -446,13 +480,10 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="56943">
           <caret line="3010" column="4" selection-start-line="3010" selection-start-column="4" selection-end-line="3010" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/app.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -461,42 +492,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5b307bb518f3a473/popup.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zanui/btn.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5b307bc618f3e67d/icon.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zanui/icon.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5b307bb518f3a473/popup.wpy" />
+    <entry file="file://$PROJECT_DIR$/src/zanui/btn.scss" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.5b307bc618f3e67d/icon.wpy" />
     <entry file="file://$PROJECT_DIR$/wepy.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zanui/card.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/wepy-zanui-demo-master/src/example/label.wpy">
       <provider selected="true" editor-type-id="text-editor">
@@ -507,16 +511,10 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/wepy-zanui-demo-master/src/example/icon.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="817">
           <caret line="43" column="12" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/newdiary_clover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/newdiary_character.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icon.less">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,37 +535,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        <state relative-caret-position="339">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="19">
           <caret line="19" selection-start-line="19" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="n#style#0;n#text#0;n#view#0;n#repeat#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#view#1;n#view#0;n#template#0;n#!!top" />
-            <element signature="e#1284#1307#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/newMoodDiaryPage.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        <state relative-caret-position="310">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1249#1272#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/newDiaryPage.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/minePage.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
         </state>
       </provider>
     </entry>

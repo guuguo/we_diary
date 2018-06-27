@@ -53,7 +53,7 @@
     {image: '/img/newdiary_voice.png', name: '声音'},
     {image: '/img/newdiary_character.png', name: '文字'},
     {image: '/img/newdiary_img.png', name: '照片'}]
-  export default class newDiaryPage extends wepy.component {
+  export default class minePage extends wepy.component {
     data = {
       functionList: listData,
       userInfo: {}

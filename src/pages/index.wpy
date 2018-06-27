@@ -5,32 +5,6 @@
     background-color: #043a4d;
   }
 
-  .new-diary-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 4.5rem;
-    display: flex;
-    flex-flow: wrap;
-    padding: 1.2rem;
-    align-content: flex-start;
-  }
-
-  .new-diary-item {
-    width: 33%;
-    display: flex;
-    flex-flow: column;
-    height: 8rem;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .new_diary_img {
-    width: 4.5rem;
-    height: 4.5rem;
-  }
-
   .bottom-bar {
     position: absolute;
     left: 0;
@@ -70,20 +44,13 @@
 </style>
 <template>
   <view class="container">
-    <view class="new-diary-content">
-      <repeat for="{{functionList}}" key="typeIndex" index="typeIndex" item="bean">
-        <view class="new-diary-item" bindtap="newMoodDiaryTap({{bean.name}})">
-          <image class="new_diary_img" src='{{bean.image}}'/>
-          <text style="color: white;font-size: 0.8rem">{{bean.name}}</text>
-        </view>
-      </repeat>
-    </view>
+    <newDiary/>
     <view class="bottom-bar">
-      <view class="bottom_view">
-        <i class="iconfont icon-zhuye bottom_icon"/>
+      <view class="bottom_view" bindtap="homeTap">
+        <i class="iconfont icon-zhuye bottom_icon" />
       </view>
       <view class="bottom_view">
-        <i class="iconfont icon-penleather bottom_center_icon"/>
+        <i class="iconfont icon-penleather bottom_center_icon" />
       </view>
       <view class="bottom_view">
         <i class="iconfont icon-wode bottom_icon"/>
@@ -94,36 +61,25 @@
 
 <script>
   import wepy from 'wepy'
-  import moduleA from 'module-a' // aliasFields ignore module example
+  import newDiaryPage from './newDiaryPage'
 
-  console.log('moduleA ignored: ', moduleA) // => moduleA ignored: {}
-  const listData = [{image: '/img/newdiary_clover.png', name: '四叶草'},
-    {image: '/img/newdiary_mood.png', name: '心情'},
-    {image: '/img/newdiary_voice.png', name: '声音'},
-    {image: '/img/newdiary_character.png', name: '文字'},
-    {image: '/img/newdiary_img.png', name: '照片'}]
   export default class Index extends wepy.page {
     config = {
-      navigationBarTitleText: 'test'
+      navigationBarTitleText: '记录'
     }
     data = {
-      functionList: listData,
-      userInfo: {}
     }
-
+    components = {
+      newDiary: newDiaryPage
+    }
     methods = {
-      newMoodDiaryTap(name) {
-        switch (name) {
-          case '心情': this.$navigate('./newMoodDiaryPage')
-            break
-        }
+      homeTap() {
+        console.log('321313')
       }
     }
 
     onLoad() {
-      wepy.setNavigationBarTitle({
-        title: '记录'// 页面标题为路由参数
-      })
+
     }
   }
 </script>
