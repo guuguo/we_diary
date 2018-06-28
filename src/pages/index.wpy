@@ -44,15 +44,17 @@
 </style>
 <template>
   <view class="container">
-    <newDiary/>
+    <minePage wx:if="{{index==0}}"/>
+    <newDiary wx:if="{{index==1}}"/>
+    <minePage wx:if="{{index==2}}"/>
     <view class="bottom-bar">
-      <view class="bottom_view" bindtap="homeTap">
+      <view class="bottom_view" bindtap="functionTap(0)">
         <i class="iconfont icon-zhuye bottom_icon" />
       </view>
-      <view class="bottom_view">
+      <view class="bottom_view" bindtap="functionTap(1)">
         <i class="iconfont icon-penleather bottom_center_icon" />
       </view>
-      <view class="bottom_view">
+      <view class="bottom_view" bindtap="functionTap(2)">
         <i class="iconfont icon-wode bottom_icon"/>
       </view>
     </view>
@@ -62,19 +64,22 @@
 <script>
   import wepy from 'wepy'
   import newDiaryPage from './newDiaryPage'
+  import minePage from './minePage'
 
   export default class Index extends wepy.page {
     config = {
       navigationBarTitleText: '记录'
     }
     data = {
+      index: 1
     }
     components = {
-      newDiary: newDiaryPage
+      newDiary: newDiaryPage,
+      minePage: minePage
     }
     methods = {
-      homeTap() {
-        console.log('321313')
+      functionTap(index) {
+        this.index = index
       }
     }
 

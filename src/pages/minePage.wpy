@@ -34,28 +34,23 @@
 </style>
 <template>
   <view class="new-diary-content">
-    <repeat for="{{functionList}}" key="typeIndex" index="typeIndex" item="bean">
-      <view class="new-diary-item" bindtap="newMoodDiaryTap({{bean.name}})">
-        <image class="new_diary_img" src='{{bean.image}}'/>
-        <text style="color: white;font-size: 0.8rem">{{bean.name}}</text>
-      </view>
-    </repeat>
+    <!--<repeat for="{{functionList}}" key="typeIndex" index="typeIndex" item="bean">-->
+      <!--<view class="new-diary-item" bindtap="newMoodDiaryTap({{bean.name}})">-->
+        <!--<image class="new_diary_img" src='{{bean.image}}'/>-->
+        <!--<text style="color: white;font-size: 0.8rem">{{bean.name}}</text>-->
+      <!--</view>-->
+    <!--</repeat>-->
   </view>
 </template>
 
 <script>
   import wepy from 'wepy'
   import moduleA from 'module-a' // aliasFields ignore module example
+  import AV from 'leancloud-storage/live-query'
 
   console.log('moduleA ignored: ', moduleA) // => moduleA ignored: {}
-  const listData = [{image: '/img/newdiary_clover.png', name: '四叶草'},
-    {image: '/img/newdiary_mood.png', name: '心情'},
-    {image: '/img/newdiary_voice.png', name: '声音'},
-    {image: '/img/newdiary_character.png', name: '文字'},
-    {image: '/img/newdiary_img.png', name: '照片'}]
   export default class minePage extends wepy.component {
     data = {
-      functionList: listData,
       userInfo: {}
     }
     methods = {
@@ -68,10 +63,17 @@
       }
     }
 
+    async getDiries() {
+      let Diary = new AV.Query('Diary')
+      let diaries = await Diary.find()
+      console.log(diaries)
+    }
+
     onLoad() {
       wepy.setNavigationBarTitle({
         title: '记录'// 页面标题为路由参数
       })
+      this.getDiries()
     }
   }
 </script>
